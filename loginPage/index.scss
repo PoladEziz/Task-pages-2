@@ -19,8 +19,8 @@
     .box {
         position: relative;
         width: 800px;
-        min-height: 524px;
-        padding: 162px 110px 80px 110px;
+        height: 524px;
+        padding: 162px 110px 32px 110px;
         background: #FFF;
 
         .profile-img {
@@ -30,16 +30,6 @@
         }
 
         form {
-            .link-login {
-                color: #000;
-                font-family: Poppins;
-                font-size: 17px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: normal;
-                letter-spacing: 1.7px;
-            }
-
             input {
                 width: 100%;
                 height: 51px;
@@ -54,7 +44,7 @@
                 letter-spacing: 1.7px;
             }
 
-            .register-btn {
+            .login-btn {
                 border: none;
                 width: 213px;
                 height: 65px;
@@ -71,7 +61,6 @@
                 line-height: normal;
                 letter-spacing: 2.2px;
             }
-
             .error {
                 font-size: 20px;
                 margin-top: 20px;
@@ -81,7 +70,7 @@
                 color: #A66;
                 display: none;
             }
-
+            }
         }
     }
-}
+

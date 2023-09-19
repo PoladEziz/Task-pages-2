@@ -18,23 +18,14 @@
 .register .box {
   position: relative;
   width: 800px;
-  min-height: 524px;
-  padding: 162px 110px 80px 110px;
+  height: 524px;
+  padding: 162px 110px 32px 110px;
   background: #FFF;
 }
 .register .box .profile-img {
   position: absolute;
   left: 301px;
   top: -90px;
-}
-.register .box form .link-login {
-  color: #000;
-  font-family: Poppins;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 1.7px;
 }
 .register .box form input {
   width: 100%;
@@ -49,7 +40,7 @@
   line-height: normal;
   letter-spacing: 1.7px;
 }
-.register .box form .register-btn {
+.register .box form .login-btn {
   border: none;
   width: 213px;
   height: 65px;

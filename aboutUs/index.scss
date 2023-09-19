@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.about {
+    padding: 167px 50px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+
+    .img-div {
+        position: relative;
+        margin-right: 30px;
+        width: 616px;
+        height: 564px;
+        background-image: url(./img/young-blackhaired-man-demonstrating-something-bright-laptop\ 1.png);
+
+        img {
+            position: absolute;
+            left: 315px;
+            top: 258px;
+        }
+    }
+
+    .right-div {
+        width: 632px;
+        margin-top: 58px;
+
+        h2 {
+            margin-bottom: 16px;
+            color: var(--Primary-colors, #333);
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 130%;
+        }
+
+        h1 {
+            margin-bottom: 24px;
+            color: var(--Primary-colors, #333);
+            font-family: Inter;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 138%;
+        }
+
+        p {
+            margin-bottom: 40px;
+            color: var(--Body, #494949);
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 156%;
+        }
+
+        button {
+            border: none;
+            width: 200px;
+            height: 53px;
+            border-radius: 4px;
+            background: var(--secendery, #09F);
+            color: #FFF;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+        }
+
+    }
+}

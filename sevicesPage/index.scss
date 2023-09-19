@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.services {
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0, 153, 255, 0.04);
+    padding: 120px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+        margin-bottom: 20px;
+        color: var(--Primary-colors, #333);
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 130%;
+    }
+
+    h1 {
+        color: var(--Primary-colors, #333);
+        font-family: Inter;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 138%;
+        margin-bottom: 32px;
+    }
+
+    h3 {
+        color: var(--Body, #494949);
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 156%;
+        margin-bottom: 71px;
+    }
+
+    ul {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            list-style-type: none;
+            width: 23%;
+            height: 342px;
+
+            p {
+                margin-top: 24px;
+                color: var(--Body, #494949);
+                text-align: center;
+                font-family: Inter;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 155%;
+            }
+        }
+    }
+}
