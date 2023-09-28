@@ -33,6 +33,7 @@
   line-height: 138%;
 }
 .portfolio p {
+  margin-bottom: 80px;
   color: var(--Body, #494949);
   text-align: center;
   font-family: Inter;
@@ -40,4 +41,31 @@
   font-style: normal;
   font-weight: 400;
   line-height: 156%;
+}
+.portfolio ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.portfolio ul li {
+  list-style-type: none;
+  border-radius: 4px 4px 0px 0px;
+  width: 24%;
+  height: 379px;
+}
+.portfolio ul .li-1 {
+  background-image: url(./img/Rectangle\ 4698.png);
+  background-size: cover;
+}
+.portfolio ul .li-2 {
+  background-image: url(./img/Rectangle\ 4698\ \(1\).png);
+  background-size: cover;
+}
+.portfolio ul .li-3 {
+  background-image: url(./img/Rectangle\ 4698\ \(2\).png);
+  background-size: cover;
+}
+.portfolio ul .li-4 {
+  background-image: url(./img/Rectangle\ 4698\ \(3\).png);
+  background-size: cover;
 }/*# sourceMappingURL=index.css.map */
