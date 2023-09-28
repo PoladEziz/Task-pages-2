@@ -1,22 +1,16 @@
 let inputs=document.querySelectorAll('input')
 let nameInput=document.querySelector('.name-input')
+let form=document.querySelector('form')
 let passwordInput=document.querySelector('.password-input')
 let errorMsg=document.querySelector('.error')
-
 let btn=document.querySelector('.register-btn')
 btn.addEventListener("click", handleRegister)
 function handleRegister(e) {
     e.preventDefault()
+    localStorage.removeItem('users')
     if (nameInput.value && passwordInput.value) {
         errorMsg.style.display='none'
-        let dataBase=getLocalStorage()
-        // let usersObject={
-        //     name:nameInput.value,
-        //     password:passwordInput.value,
-        // }
-        // // dataBase.push(usersObject)
-        // localStorage.setItem('users',dataBase)
-        console.log(dataBase);
+       createUser()
     }
     else{
         errorMsg.style.display='block'
@@ -36,6 +30,16 @@ else{
 function createDataBase() {
     let dataBase=[]
     localStorage.setItem('users',JSON.stringify(dataBase))
+}
+function createUser() {
+    let dataBase=getLocalStorage()
+    let userObject={
+        name:nameInput.value,
+        password:passwordInput.value
+    }
+    dataBase.push(userObject)
+    localStorage.setItem('users',JSON.stringify(dataBase))
+    form.reset()
 }
 
 
